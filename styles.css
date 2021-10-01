@@ -1,0 +1,182 @@
+#portfolio {
+    margin: 0;
+}
+
+#portfolio nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a3038;
+    color: #51bdbb;
+    margin:0;
+    height: 50px;
+}
+
+#portfolio nav .logo-name{
+    background-color: #51bdbb;
+    color: #2a3038;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 50px;
+    font-size: 32px;
+    font-weight: 700;
+}
+#portfolio nav ul{
+    padding: 0 50px 0 0;
+    list-style: none;
+    margin: 32px 0;
+    display: flex;
+    background-color: #2a3038;
+    color: #51bdbb;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #335379; 
+}
+
+.link{
+    margin: 0 8px
+}
+
+.link a {  color: #FFFFFF;
+    font-weight: 700;}
+
+#cool-sub{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #51bdbb;
+    color: #FFFFFF;
+    background-image: url(https://speckyboy.com/wp-content/uploads/2020/11/high-resolution-4k-desktop-wallpaper-14.jpg);
+    padding: 0 56px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+#cool-sub p {
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #51bdbb;
+    padding: 8px;
+    border: 4px solid #2a3038;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.flex-container > div {
+    display: flex;
+    padding: 0 56px;
+}
+
+.flex-container > div > h2 {
+    width: 15%;
+    border-right: 4px solid;
+    text-align: right;
+    padding-right: 16px;
+}
+
+.flex-container > div > p {
+    width: 85%;
+    padding-left: 16px;
+    font-family: "arial";
+    line-height: normal;
+}
+
+/* div.flex-container div#work div.work-images {
+    border: 5px solid rgb(220, 220, 236);
+
+} */
+div.flex-container div#work div.work-images div#img1 {
+    border: 5px solid #51bdbb;
+    width: 700px;
+    height: 100px;
+    background-image: url(https://picjumbo.com/wp-content/uploads/website-programming-code-free-photo-1080x720.jpg);
+    justify-content: flex-start;
+    background-position: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+        
+}
+div.flex-container div#work div.work-images div#img1 div.sub2{
+    align-items: baseline;
+    background-color: #51bdbb;
+    color: #2a3038;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-right: 550px;
+}  
+div.flex-container div#work div.work-images div#img1 p{
+    align-items: baseline;
+    background-color: #51bdbb;
+    color: #2a3038;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-right: 550px;
+    font-weight: bold;
+}  
+div.flex-container div#work div.work-images div#img1 div.sub2{
+    align-items: baseline;
+    background-color: #51bdbb;
+    color: #2a3038;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -60px;
+    margin-right: 550px;
+    font-size: smaller
+}
+
+div.flex-container div#work div.work-images div.row2 {
+    border: 5px solid #51bdbb;
+    width: 350px;
+    height: 100px;
+    background-color: red;
+    margin-left: 30px;
+    margin-bottom: 10px;
+        
+}
+
+div.flex-container div#work div.work-images div.new2{
+    margin-left: 30px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+/* div#background-image1{
+    background-image: url(https://cdn.wallpapersafari.com/59/13/Uh8YoL.jpg);
+    background-size: 100px 80px;
+} */
+@media screen and (max-width: 768px) {
+    .flex-container > div {
+        flex-direction: column;
+    }
+    .flex-container > div > h2 {
+        width: 100%;
+    }
+    
+    .flex-container > div > p {
+        width: 100%;
+    }
+    #portfolio header nav {
+        height: 100px;
+    }
+    #portfolio nav ul{
+        flex-direction: column;
+    }
+}
