@@ -143,6 +143,20 @@ div.flex-container div#work div.work-images div.row2 {
     margin-bottom: 10px;
         
 }
+div.flex-container div#work div.work-images div.r3 {
+    border: 5px solid #51bdbb;
+    width: 350px;
+    height: 100px;
+    background-color: red;
+    margin-left: 380px;
+    margin-bottom: 10px;
+
+        
+}
+
+/* div.flex-container div#work div.work-images div.r22{
+    background-image: url(https://www.dreamhost.com/blog/wp-content/uploads/2018/09/elements-web-design-opt.jpg);
+} */
 
 div.flex-container div#work div.work-images div.new2{
     margin-left: 30px;
