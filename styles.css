@@ -110,12 +110,13 @@ div#prof-pic img{
 
 } */
 div#work div.work-images{
-    display: flex;
-    flex-flow: wrap
+    /* display: flex;
+    flex-flow: wrap; */
+    width: 85%;
 }
 div.flex-container div#work div.work-images div#img1 {
     border: 5px solid #51bdbb;
-    width: 741px;
+    width: 100%;
     height: 100px;
     background-image: url(https://picjumbo.com/wp-content/uploads/website-programming-code-free-photo-1080x720.jpg);
     justify-content: flex-start;
@@ -155,16 +156,27 @@ div.flex-container div#work div.work-images div#img1 div.sub2{
 
 div.flex-container div#work div.work-images div#img2 {
     border: 5px solid #51bdbb;
-    width: 350px;
+    width: 700px;
     height: 100px;
     margin-left: 30px;
     margin-bottom: 10px;
     background-image: url('https://blog.corp-site.envato.com/cdn-cgi/image/width=1200,quality=85,format=auto/uploads/2020/11/SOC133_WebDesign_Trends_2021_Blog.jpg');
     background-position: center;    
 }
+div.flex-container div#work div.work-images div#img2 a{
+    align-items: baseline;
+    background-color: #51bdbb;
+    color: #2a3038;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 550px;
+    font-weight: bold;
+    display: flex;
+    align-content: baseline;
+    margin-top: 70px;
+}
 div.flex-container div#work div.work-images div#img3 {
     border: 5px solid #51bdbb;
-    width: 350px;
+    width: 100%;
     height: 100px;
     margin-left: 30px;
     margin-bottom: 10px;
@@ -173,7 +185,7 @@ div.flex-container div#work div.work-images div#img3 {
 }
 div.flex-container div#work div.work-images div#img4 {
     border: 5px solid #51bdbb;
-    width: 350px;
+    width: 100%;
     height: 100px;
     background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/60107eab1a08453016e256a7_6002086f72b727ea8901e8eb_web-design-trends-2021.jpeg');
     margin-left: 30px;
@@ -185,13 +197,19 @@ div.flex-container div#work div.work-images div#img4 {
 }
 div.flex-container div#work div.work-images div#img5 {
     border: 5px solid #51bdbb;
-    width: 350px;
+    width: 100%;
     height: 100px;
     background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/60107eb0b92ae28e573d81a6_6002086f72b72739ce01e872_PushPress-Webflow.jpeg');
     margin-left: 30px;
     margin-bottom: 10px;
     background-position: right;
         
+}
+
+@media screen and (min-width: 768px) {
+    #portfolio div.flex-container div#work div.work-images div.img-container {
+        width: 50%;
+    }
 }
 
 /* div.flex-container div#work div.work-images div.r22{
@@ -206,12 +224,11 @@ div.flex-container div#contact-me div.navg2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px 0 0;
+    padding: 0 0 0 24px;
     list-style: none;
-    margin: 32px 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #335379;
-    margin-left: 45px;
+    width: 85%;
 }
 
 .link2 a {  
