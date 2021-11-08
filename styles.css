@@ -142,7 +142,7 @@ div.flex-container div#work div.work-images div#img1 a{
     font-weight: bold;
     display: flex;
     align-content: baseline;
-    margin-top: 70px;
+    /* margin-top: 70px; */
 }  
 div.flex-container div#work div.work-images div#img1 div.sub2{
     align-items: baseline;
@@ -164,15 +164,13 @@ div.flex-container div#work div.work-images div#img2 {
     background-position: center;    
 }
 div.flex-container div#work div.work-images div#img2 a{
-    align-items: baseline;
     background-color: #51bdbb;
     color: #2a3038;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 550px;
     font-weight: bold;
-    display: flex;
-    align-content: baseline;
-    margin-top: 70px;
+    margin-top: -60px;
+    
 }
 div.flex-container div#work div.work-images div#img3 {
     border: 5px solid #51bdbb;
